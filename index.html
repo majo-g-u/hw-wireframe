@@ -1,15 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>hw-wireframe</title>
-</head>
-<body>
-    <h1>Welcome to my cool website1 .</h1>
-    <div class="1">
-        <p>HIhh</p>
+  </head>
+  <body>
+    <header>
+      <h1 class="header">Student Bio</h1>
+      <style>
+        .header {
+          text-align: center;
+          color: white;
+          background-color: black;
+          height: 60px;
+          padding-top: 20px;
+        }
+        .inline-majo {
+          font-size: 25px;
+          float: left; /*Add float left*/
+          margin: 10px;
+          margin-left: 100px;
+        }
+        .inline-contact {
+          font-size: 25px;
+          float: left; /*Add float left*/
+          margin: 10px;
+          margin-left: 600px;
+        }
+        .container {
+          justify-content: center;
+        }
+
+        .paragraph {
+          float: right; /*Add float left*/
+          margin-left: 15px;
+        }
+
+        .a-tag{
+            color:rgb(253, 55, 55);
+        }
+
+      </style>
+    </header>
+
+    <div class="container">
+      <div class="inline-majo">
+        <h2>Majo</h2>
+        <img src="https://via.placeholder.com/200" alt="" />
+        <p class="paragraph">This is a short paragraph about myself</p>
+      </div>
+
+      <div class="inline-contact">
+        <h2>Contact Info</h2>
+        <ul>
+          <li>
+            <b>Email: </b>
+            <a class="a-tag" href="#">majogomez@gmail.com</a>
+          </li>
+          <li>
+            <b>GitHub: </b>
+            <a class="a-tag" href="#">samplename</a>
+          </li>
+          <li>
+            <b>Portfuio: </b>
+            <a class="a-tag" href="#">coming soon</a>
+          </li>
+        </ul>
+      </div>
     </div>
-</body>
+  </body>
 </html>
