@@ -1,0 +1,47 @@
+
+.header {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  height: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.h2 {
+  font-size: 40px;
+}
+#inline-majo,
+#inline-contact,
+#inline-img {
+  float: left; /*Add float left*/
+}
+
+#inline-majo {
+  /*border: 1px solid salmon;*/
+  width: 70%;
+}
+#inline-contact {
+  font-size: 20px;
+  /*border: 1px solid rgb(34, 117, 199);*/
+  width: 30%;
+}
+
+#inline-img {
+  margin-right: 20px;
+}
+
+.container {
+  width: 1024px;
+  margin: auto;
+  justify-content: center;
+}
+
+.paragraph {
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+.a-tag {
+  color: rgb(253, 55, 55);
+}
